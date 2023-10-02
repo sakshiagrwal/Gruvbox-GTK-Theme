@@ -1788,11 +1788,12 @@ StScrollBar StButton#hhandle:active {
   font-weight: normal;
   transition-duration: 100ms;
   border: none;
-  margin: 0;
+  margin: 0px 6px;
   color: rgba(221, 199, 161, 0.6);
   border-radius: 0;
   spacing: 6px;
   border-bottom: 2px solid transparent;
+  width: 40px !important;
 }
 
 .grouped-window-list-item-box.top,
